@@ -165,7 +165,11 @@
 	# Disable pager.
 	np = !git --no-pager
 	dp = !git -c pager.show='less -FRX' -c pager.log='less -FRX' -c pager.diff='less -FRX'
+	
+	assets = checkout 'apps/Controlling/src/DebitorWeb/assets/'
 [credential]
 	helper = manager
 [winUpdater]
 	recentlySeenVersion = 2.23.0.windows.1
+[gui]
+	recentrepo = D:/dev/repos/co-IT/products/debitor-web
